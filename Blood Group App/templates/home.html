@@ -1,0 +1,30 @@
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.scss') }}">
+    
+    <form class="form" action="#" method="POST">
+        <h1>Blood Group Survey</h1>
+      <h3>Enter Name</h3>
+      <input type="text" name ="Name" required>
+
+      <h3>Age</h3>
+
+      <input type="text" name ="Age" required>
+
+      <h3>Quantity Of Blood</h3>
+
+      <input type="text" name ="Quantity" required>
+
+      <h3>Please select your blood group:</h3>
+
+      <select id="blood_group" name="blood_group"><br>
+        {% for group in blood_groups %}
+        <option value="{{ group }}" >{{ group }}</option>
+        {% endfor %}
+      </select>
+      <br>
+      <br>
+      <input class="button" type="submit" value="submit" name= "submit">
+    </form>
+
+    
+

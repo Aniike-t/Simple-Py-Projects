@@ -1,0 +1,43 @@
+body{
+  background-color: rgba(255, 233, 204, 0.84);
+}
+
+.form {
+
+  padding:30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%; 
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: rgba(78, 78, 78, 0.336);
+  border-radius: 30px;
+  font-family: 'Lucida Sans';
+  margin-top: 4%;
+  
+}
+input{
+  border: 0px;
+  outline: 0px;
+  padding: 10px;
+  width: 90%;
+  border-radius: 10px;
+}
+select{
+  border:0px;
+  outline: 0px;
+  padding:10px;
+  width: 30%;
+  border-radius: 15px;
+}
+
+.button:hover{
+  transition: ease-in;
+  transition-duration: 0.5s;
+  background-color: #353535;
+  box-shadow: inset #ffffff;
+  color: #ffffff;
+}
