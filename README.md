@@ -1,5 +1,5 @@
 # Simple Python Projects
-**Simple And Easy projects made using python and using python libraries such as matplotlib, flask, pickle, SqlAlchemy and many more.**
+**Simple And Easy projects made using python and using python libraries such as matplotlib, flask, pickle, SqlAlchemy and others.**
 
 
 ## Contents
